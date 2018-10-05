@@ -1,22 +1,130 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+name: iGbanam™
 
-# Site settings
-title: The Developer Cave
-email: xigbanam@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Sometimes in life... it's good to start your description with
-  "Sometimes in life".
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: yaasky
-github_username:  igravity
+description:
+  meta: Igbanam is a software engineer passionate about architecture, patterns, and processes.
+  subtitle: Story of a software engineer passionate about architecture, patterns, and processes.
 
-# Build settings
+author:
+  name: Igbanam
+  email: xigbanam@gmail.com
+  info: Poet. Person. *Programmer*
+
+url: http://igbanam.github.io
+baseurl: ""
+
+# language attribute in <html> element.
+lang: en
+
+# FROM THIS POINT ON EVERYTHING IS OPTIONAL
+
+##############
+# APPEREANCE #
+##############
+
+# If you want to show the subtitle anywhere else than the front page, use
+# {% include subtitle.html %} to include it anywhere you want.
+show-subtitle: true
+display-social-icons: true
+social-icons-open-newtab: true
+
+footer-text: When purpose is used to achieve purposelessness, the point is grasped.
+
+# Preferably 64px in height. Leave empty = disable.
+logo-image: #
+
+background-color: 255, 255, 241 # also change "_includes\gradient.css" to matc
+ms-tile-color: "#a0591f"
+text-color: 0, 0, 0
+theme-color-attr: "#a0591f"
+theme-color: 160, 89, 31
+
+display-author-post-page: true
+display-author-front-page: true
+
+# http://alanwsmith.com/jekyll-liquid-date-formatting-examples
+date_format: "%b %-d, %Y"
+
+# Minimal screen-width after which the navigation will change position from
+# vertical to horizontal.
+nav-breaking-point: 520px
+
+# Number of posts on each page.
+paginate: 3
+
+# Display links for the previous and next post on post pages.
+display-next-prev-post: false
+
+# Leave empty if you don't want comments on post pages.
+disqus-shortname:
+
+
+################
+# SOCIAL ICONS #
+################
+
+# Use a complete url here, including http:// and such. Requiring just usernames
+# has been considered, but this is way more customizable.
+behance:
+bitcoin:
+codepen:
+dribbble:
+facebook:
+github: https://github.com/igbanam
+google-plus:
+instagram: https://instagram.com/igbanam
+linkedin: https://ng.linkedin.com/in/igbanam
+medium: https://medium.com/yaasky
+paypal:
+reddit:
+soundcloud:
+stack-overflow: https://stackoverflow.com/users/393021/igbanam
+trello:
+tumblr:
+twitter: http://twitter.com/yaasky
+youtube:
+
+
+#####################
+# CUSTOMIZABLE TEXT #
+#####################
+
+# Useful for translating into other languages.
+
+var_guest_post_by: Guest post by
+var_less_than_a_minute_read: Less than a minute read
+var_min_read: min read # Text after reading time. Example: 5 min read.
+var_newer: Newer
+var_next_post: Next post
+var_older: Older
+var_on_the_web: I'm social on
+var_post_by: Post by
+var_previous_post: Previous post
+var_read: Read # Text after each post summary on the homepage.
+var_your_email: Your email
+var_your_message: Your message
+
+
+##################
+# BUILD SETTINGS #
+##################
+
+# You don't have to change these.
+
+exclude: [vendor]
+highlighter: rouge
+kramdown:
+  input: GFM
 markdown: kramdown
-
+paginate_path: "/page-:num/"
+permalink: pretty
+plugins: [jekyll-paginate]
 timezone: Africa/Lagos
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      excerpt_separator: "<!--more-->"

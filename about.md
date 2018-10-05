@@ -1,15 +1,17 @@
 ---
 layout: page
-title: About
+title: Hello…
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a software engineer with a passion for Software Architecture, Design
+Patterns, Architecural Patterns, and Software Engineering Processes.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Primarily (rather, "frequently"), I am a Ruby developer who has spent most of
+his time on the Ruby on Rails framework. Other languages I am proficient in are
+PHP (Yii 2). I am experimenting with Elixir (Phoenix), and Crystal (Amber) at the
+moment.
 
-You can find ds source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+![ProfilePic](https://pbs.twimg.com/profile_images/998289866868707328/pujb_1g__400x400.jpg)
+
+{% include social.html %}
