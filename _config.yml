@@ -32,11 +32,11 @@ footer-text: When purpose is used to achieve purposelessness, the point is grasp
 # Preferably 64px in height. Leave empty = disable.
 logo-image: #
 
-background-color: 255, 255, 241 # also change "_includes\gradient.css" to matc
-ms-tile-color: "#a0591f"
-text-color: 0, 0, 0
-theme-color-attr: "#a0591f"
-theme-color: 160, 89, 31
+# background-color: 255, 255, 241 # also change "_includes\gradient.css" to matc
+# ms-tile-color: "#a0591f"
+# text-color: 0, 0, 0
+# theme-color-attr: "#a0591f"
+# theme-color: 160, 89, 31
 
 display-author-post-page: true
 display-author-front-page: true
