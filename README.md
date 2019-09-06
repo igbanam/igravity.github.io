@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0046d899-c22a-4cb6-8899-8bd680d591cf/deploy-status)](https://app.netlify.com/sites/igbanam/deploys)
+
 # "iGbanam"
 ### _The programmer in the Yasky tripartite_
 
