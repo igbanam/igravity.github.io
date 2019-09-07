@@ -9,11 +9,29 @@ author:
   email: xigbanam@gmail.com
   info: Poet. Person. *Programmer*
 
-url: http://igbanam.github.io
+url: http://igbanam.netlify.com
 baseurl: ""
 
 # language attribute in <html> element.
 lang: en
+
+#########
+# THEME #
+#########
+theme: jekyll-theme-minimal
+
+exclude:
+  - README.md
+  - LICENSE.txt
+  - netlify.toml
+  - feed.xml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
@@ -128,5 +146,3 @@ defaults:
     values:
       layout: "post"
       excerpt_separator: "<!--more-->"
-
-theme: jekyll-theme-minimal
