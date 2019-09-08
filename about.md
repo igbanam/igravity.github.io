@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Profile Image]({{ site.picture }})
 
 <p>
 I am a software engineer with a passion for Software Architecture, Design

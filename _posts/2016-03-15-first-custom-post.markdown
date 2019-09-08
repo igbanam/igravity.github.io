@@ -2,8 +2,12 @@
 layout: post
 title:  "First Custom Post!"
 date:   2016-03-15 14:04:09 +0100
-categories: jekyll update
-author: iGbanam
+tag: jekyll update
+category: blog
+author: igbanam
+description: Fooling around
+headerImage: false
+image: assets/image/markdown.jpg
 excerpt: Something interesting inside
 ---
 
