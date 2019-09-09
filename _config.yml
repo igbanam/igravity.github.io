@@ -33,6 +33,7 @@ disqus:
   categories: [blog, project]
 
 # if you don't have any of social below, comment the line
+# email: email@host.com
 # gitlab: mygitlab
 # google: mygoogle
 # lanyrd: mylanyrd
@@ -44,7 +45,6 @@ disqus:
 # stackoverflow: 7044681/mystackoverflow
 # vimeo: myvimeo
 # youtube: myyoutube
-email: xigbanam@gmail.com
 facebook: igbanam
 github: igbanam
 instagram: yaadky
