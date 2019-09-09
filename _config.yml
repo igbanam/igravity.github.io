@@ -1,5 +1,5 @@
 # main text of home
-name: igbanam
+name: Yāsky
 bio: Poet. Person. Programmer.
 
 # twitter summary info
@@ -12,9 +12,9 @@ picture: https://pbs.twimg.com/profile_images/998289866868707328/pujb_1g__400x40
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://path/to/my_resume
 
 url: https://igbanam.github.io
 
@@ -33,24 +33,24 @@ disqus:
   categories: [blog, project]
 
 # if you don't have any of social below, comment the line
-facebook: igbanam
-twitter: yaasky
-# google: mygoogle
-instagram: yaadky
-# pinterest: mypinterest
-linkedin: igbanam
-# youtube: myyoutube
-# spotify: myspotify
-github: igbanam
 # gitlab: mygitlab
+# google: mygoogle
+# lanyrd: mylanyrd
 # lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
+# pinterest: mypinterest
 # quora: userquora
 # reddit: username
-medium: yaasky
+# spotify: myspotify
+# stackoverflow: 7044681/mystackoverflow
 # vimeo: myvimeo
-# lanyrd: mylanyrd
+# youtube: myyoutube
 email: xigbanam@gmail.com
+facebook: igbanam
+github: igbanam
+instagram: yaadky
+linkedin: igbanam
+medium: yaasky
+twitter: yaasky
 
 authors:
     igbanam:
@@ -59,12 +59,6 @@ authors:
         external-image: true
         picture: https://pbs.twimg.com/profile_images/998289866868707328/pujb_1g__400x400.jpg
         twitter: yaasky
-    # jamesfoster:
-    #     name: James Foster
-    #     bio: A Man who develops software with coffee
-    #     external-image: false
-    #     picture: assets/images/james.jpg
-    #     twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
