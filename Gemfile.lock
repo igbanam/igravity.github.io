@@ -254,8 +254,9 @@ DEPENDENCIES
   github-pages
   jekyll-asciinema
   jekyll-compose
+  jekyll-feed
   jekyll-gist
-  rouge
+  jekyll-seo-tag
 
 BUNDLED WITH
    1.16.2

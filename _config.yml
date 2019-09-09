@@ -1,148 +1,103 @@
-name: iGbanam™
+# main text of home
+name: Yāsky
+bio: Poet. Person. Programmer.
 
-description:
-  meta: Igbanam is a software engineer passionate about architecture, patterns, and processes.
-  subtitle: Story of a software engineer passionate about architecture, patterns, and processes.
+# twitter summary info
+description: These are my thoughts.
 
-author:
-  name: Igbanam
-  email: xigbanam@gmail.com
-  info: Poet. Person. *Programmer*
+# if it's an external image, update below for true
+# better with square images
+external-image: true
+picture: https://pbs.twimg.com/profile_images/998289866868707328/pujb_1g__400x400.jpg
 
-url: http://igbanam.netlify.com
-baseurl: ""
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: false
+resume-external: true
+resume-url: https://path/to/my_resume
 
-# language attribute in <html> element.
-lang: en
+url: https://igbanam.github.io
 
-#########
-# THEME #
-#########
-theme: jekyll-theme-minimal
+permalink: /:title/
 
-exclude:
-  - README.md
-  - LICENSE.txt
-  - netlify.toml
-  - feed.xml
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-MYANALYTICS'
 
-# FROM THIS POINT ON EVERYTHING IS OPTIONAL
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
 
-##############
-# APPEREANCE #
-##############
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: igbanam
+  categories: [blog, project]
 
-# If you want to show the subtitle anywhere else than the front page, use
-# {% include subtitle.html %} to include it anywhere you want.
-show-subtitle: true
-display-social-icons: true
-social-icons-open-newtab: true
+# if you don't have any of social below, comment the line
+# gitlab: mygitlab
+# google: mygoogle
+# lanyrd: mylanyrd
+# lastfm: mylastfm
+# pinterest: mypinterest
+# quora: userquora
+# reddit: username
+# spotify: myspotify
+# stackoverflow: 7044681/mystackoverflow
+# vimeo: myvimeo
+# youtube: myyoutube
+email: xigbanam@gmail.com
+facebook: igbanam
+github: igbanam
+instagram: yaadky
+linkedin: igbanam
+medium: yaasky
+twitter: yaasky
 
-footer-text: When purpose is used to achieve purposelessness, the point is grasped.
+authors:
+    igbanam:
+        name: Igbanam
+        bio: Poet. Person. Programmer.
+        external-image: true
+        picture: https://pbs.twimg.com/profile_images/998289866868707328/pujb_1g__400x400.jpg
+        twitter: yaasky
 
-# Preferably 64px in height. Leave empty = disable.
-logo-image: #
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
 
-# background-color: 255, 255, 241 # also change "_includes\gradient.css" to matc
-# ms-tile-color: "#a0591f"
-# text-color: 0, 0, 0
-# theme-color-attr: "#a0591f"
-# theme-color: 160, 89, 31
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
 
-display-author-post-page: true
-display-author-front-page: true
+# if you don't need projects, comment the *projects* configs below
+projects: true
 
-# http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%b %-d, %Y"
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
 
-# Minimal screen-width after which the navigation will change position from
-# vertical to horizontal.
-nav-breaking-point: 520px
+# do you want to show the "read time" of the posts?
+read-time: true
 
-# Number of posts on each page.
-paginate: 3
+# do you want to show the "tags" inside the posts?
+show-tags: true
 
-# Display links for the previous and next post on post pages.
-display-next-prev-post: false
+# related posts inside a post?
+related: true
 
-# Leave empty if you don't want comments on post pages.
-disqus-shortname:
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
 
+# show author block at the end of a post ?
+show-author: true
 
-################
-# SOCIAL ICONS #
-################
+# do you want some animations?
+animation: true
 
-# Use a complete url here, including http:// and such. Requiring just usernames
-# has been considered, but this is way more customizable.
-behance:
-bitcoin:
-codepen:
-dribbble:
-facebook:
-github: https://github.com/igbanam
-google-plus:
-instagram: https://instagram.com/igbanam
-linkedin: https://ng.linkedin.com/in/igbanam
-medium: https://medium.com/yaasky
-paypal:
-reddit:
-soundcloud:
-stack-overflow: https://stackoverflow.com/users/393021/igbanam
-trello:
-tumblr:
-twitter: http://twitter.com/yaasky
-youtube:
+compress_html:
+    ignore:
+        envs:
+        - development
+        - stage
 
-
-#####################
-# CUSTOMIZABLE TEXT #
-#####################
-
-# Useful for translating into other languages.
-
-var_guest_post_by: Guest post by
-var_less_than_a_minute_read: Less than a minute read
-var_min_read: min read # Text after reading time. Example: 5 min read.
-var_newer: Newer
-var_next_post: Next post
-var_older: Older
-var_on_the_web: I'm social on
-var_post_by: Post by
-var_previous_post: Previous post
-var_read: Read # Text after each post summary on the homepage.
-var_your_email: Your email
-var_your_message: Your message
-
-
-##################
-# BUILD SETTINGS #
-##################
-
-# You don't have to change these.
-
-exclude: [vendor]
-highlighter: rouge
-kramdown:
-  input: GFM
-markdown: kramdown
-paginate_path: "/page-:num/"
-permalink: pretty
-plugins: [jekyll-paginate]
-timezone: Africa/Lagos
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      excerpt_separator: "<!--more-->"
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
