@@ -5,10 +5,10 @@
       this.page.url = '{{ site.url }}{{ page.url | replace:"index.html","" }}';
       this.page.identifier = '{{ page.id }}';
     };
-    var disqus_shortname = '{{ site.disqus.shortname }}'
+
     (function() {
       var d = document, s = d.createElement('script');
-      s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+      s.src = 'https://igbanam.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
