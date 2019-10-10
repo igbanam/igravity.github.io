@@ -8,7 +8,7 @@ tag:
   - ci
   - github
 headerImage: true
-image: /assets/images/jekyll-logo-light-solid.png
+image: /assets/images/ci-with-actions.png
 ---
 
 Continuous Integration is key in the delivery of any software. Now, "continuous integration" has had many definitions over the years. Some say it has to do with bringing code from different branches, "integrating" them into a delivery beanch. Some day it's the introduction of automated tests into your pipeline. Others, as primitive as me, say it's CircleCI and TrravisCI. Wherever you fall on this spectrum, you may have the belief that continuous integration makes it easier to ship code.
