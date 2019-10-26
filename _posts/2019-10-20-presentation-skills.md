@@ -67,4 +67,6 @@ If you cannot be calm, best to channel all that energy into enthusiasm for your 
   - Walk around; use the stage properly; but stay away from the projector.
   - Visit your speaking venue before the talk.
 
+## Conclusion
+
 There is never a master of presentations. The skill is built over a lifetime. Every new presentation is a chance to learn something new; the audience is unique, the time the presentation is given has its unique properties. When approaching a presentation, even if it is on a topic which you have presented on before, treat it with the same respect and humility as a first time presentation.
