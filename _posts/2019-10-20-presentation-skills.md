@@ -52,20 +52,25 @@ If you cannot be calm, best to channel all that energy into enthusiasm for your 
 
 ### Measure Your Speech
 
-  - Take a pause if you need it.
-  - Remember they audience wants the presentation to go well. They came to see you anyway. 
-  - You are in control of the presentation.
-  - No one else knows your content like you do.
-  - Take it as an opportunity to exercise presentation
+When the nerves are high, there is a tendenty to speak faster than your natural cadence. This is normal. If you find yourself speaking faster than you usually do, pause at some point. The only person who knows your content inside out is you. A pause does not count poorly to your performance. It is an integral part of your presentation.
+
+Presentations are built to have pauses; this is why each slide is a separate entity. It is better to consciously design your presentation to have pause points within it. A good way to do this is to ask the audience a question. Throwing control back to the audience for a few seconds could help in allowing you gather your thoughts and composure. 
+
+Remember that the audience has gathered to listen to you. You are in control of the presentation.
 
 ### Understand Presentation Techniques
 
-  - Dress comfortably and smart; or in a manner to augment your topic
+On presentation day, dress smart; or dress in a way which augments your presentation. If your audience percieves you as someone capable of giving the presentation, they would be more open to your content. If you are presenting to a panel of business men on the details of a business, best to dress like a businessman.
+
+The general rule of thumb is to dress smart. Sometimes, you may dress differently depending on your research on your audience, and the knowledhe of your topic. If I am presenting on fire hazards and safety peocedures in such situations, I would dress like a fire marshall; maybe not the whole costume shindig; but a nice clean T-shirt with sharp jeans, and rugged shoes would do.
+
+All in all, make sure you're comfirtable in yoru clothing. You would be standing in front of an audience, talking for quite some time.
 
 ### Know Your Environment and Audience
 
-  - Walk around; use the stage properly; but stay away from the projector.
-  - Visit your speaking venue before the talk.
+Through this article, I have touched on some bits where you have to be aware of your audience. It pays to understand the demographic you're speaking to: this would help guide the language you use in delivering your content.
+
+Akin to the audience, it is also imperative to understand the enditonment you would be presenting in. Try to visit the venue for your presentation a day before. Get on stage with no one there and practice walking around. Get familiar with the size of the room, and how your voice bounces off the walls when you speak. This would create some familiarity with your space. During the presentation, you would feel more comfortable walking around and interacting with your envitonment.
 
 ## Conclusion
 
