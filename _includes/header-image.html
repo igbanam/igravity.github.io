@@ -1,0 +1,11 @@
+{% if post %}
+  {% if post.image and post.headerImage %}
+      <img class="title-image" src="{{ post.image }}" alt="{{ post.title }}">
+  {% endif %}
+{% endif %}
+
+{% if page %}
+  {% if page.image and page.headerImage %}
+      <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+  {% endif %}
+{% endif %}
