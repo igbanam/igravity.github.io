@@ -10,12 +10,6 @@ description: These are my thoughts.
 external-image: true
 picture: https://pbs.twimg.com/profile_images/1279499892793245698/sZVNrM7F_400x400.jpg
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-external: true
-resume-url: https://path/to/my_resume
-
 url: https://igbanam.github.io
 
 permalink: /:title/
