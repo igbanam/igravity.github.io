@@ -1,71 +1,73 @@
 .share
-    float: right
-    width: 40%
+  float: right
+  width: 40%
+  display: inline
+  text-align: right
+  position: relative
+  top: -10px
+
+  @media #{$mobile}
+    width: 100%
+    display: block
+    top: 0
+    text-align: left
+    float: none
+    margin-top: 5px
+
+  @media #{$tablet}
+    width: 100%
+    display: block
+    top: 0
+    text-align: left
+    float: none
+    margin-top: 5px
+
+  > .twitter,
+  > .facebook,
+  > .google-plus,
+  > .linkedin,
+  > .reddit
     display: inline
-    text-align: right
-    position: relative
-    top: -10px
+    vertical-align: middle
+    font-size: 13px
+    font-weight: 700
+    color: white
+    padding: 6px 10px
+    border-radius: 3px
+    margin-left: 5px
+    text-decoration: none
+
+    @media #{$dark-mode}
+      color: black
 
     @media #{$mobile}
-        width: 100%
-        display: block
-        top: 0
-        text-align: left
-        float: none
-        margin-top: 5px
+      margin: 0 5px 10px 0
 
     @media #{$tablet}
-        width: 100%
-        display: block
-        top: 0
-        text-align: left
-        float: none
-        margin-top: 5px
+      margin: 0 5px 10px 0
 
-    > .twitter,
-    > .facebook,
-    > .google-plus,
-    > .linkedin,
-    > .reddit
-        display: inline
-        vertical-align: middle
-        font-size: 13px
-        font-weight: 700
-        color: #fff
-        padding: 6px 10px
-        border-radius: 3px
-        margin-left: 5px
-        text-decoration: none
+  > .twitter
+    background: $for-twitter
 
-        @media #{$mobile}
-            margin: 0 5px 10px 0
+  > .facebook
+    background: $for-facebook
 
-        @media #{$tablet}
-            margin: 0 5px 10px 0
+  > .google-plus
+    background: $for-google-plus
 
-    > .twitter
-        background: #4fafed
+  > .linkedin
+    background: $for-linkedin
 
-    > .facebook
-        background: #4361b3
+  > .reddit
+    background: $for-reddit
 
-    > .google-plus
-        background: #dd4b39
+  svg
+    fill: white
+    position: relative
+    top: 3px
+    margin: 0
+    margin-right: 4px
+    display: inherit
 
-    > .linkedin
-        background: #0077b5
-
-    > .reddit
-        background: #ff4500
-
-    // #bug
-    // can't use .icon with >
-    // don't know why - sorry
-    // take this insted: youtube.com/watch?v=59Zcx9YbZxI
-    svg
-        fill: #fff
-        position: relative
-        top: 3px
-        margin: 0
-        margin-right: 4px
-        display: inherit
+    @media #{$dark-mode}
+      fill: black
