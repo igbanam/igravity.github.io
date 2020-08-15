@@ -6,8 +6,6 @@ author: igbanam
 category: blog
 tag:
   - laptop
-headerImage: true
-image: /assets/images/slim-pre.png
 ---
 
 ![Total Bloat](/assets/images/slim-pre.png)
@@ -33,8 +31,6 @@ My Macbook breaks down my storage use into the following categories
 - Music Creation
 - System
 - Other Volumes in Container
-
-< Insert the plain storage information image here >
 
 I'll tackle this in increasing order of bloat.
 
