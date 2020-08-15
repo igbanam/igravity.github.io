@@ -6,16 +6,21 @@ body
   font: 16px $fontSans
   color: $alpha
 
+  @media #{$dark-mode}
+    color: $dark-alpha
+
 h1, h2, h3, h4
   font-family: $fontSans
   color: $beta
   -webkit-font-smoothing: antialiased
   text-rendering: optimizeLegibility
 
+  @media #{$dark-mode}
+    color: $dark-beta
+
 h1
   font-size: 3rem
   letter-spacing: -1px
-  color: $beta
   font-weight: 700
 
 h2
@@ -31,6 +36,9 @@ a
   color: $delta
   text-decoration: underline
 
+  @media #{$dark-mode}
+    color: $dark-delta
+
 p
   line-height: 1.7
   color: $alpha
@@ -41,9 +49,15 @@ p
   @media #{$mobile}
     letter-spacing: 0.2px
 
+  @media #{$dark-mode}
+    color: $dark-alpha
+
 strong
   font-weight: 400
   color: #000
+
+  @media #{$dark-mode}
+    color: #fff
 
 ul,
 ol
@@ -51,6 +65,9 @@ ol
     line-height: 2.4rem
     font-weight: 300
     color: $alpha
+
+  @media #{$dark-mode}
+    color: $dark-alpha
 
 img,
 pre,
@@ -76,6 +93,9 @@ figcaption
   @media #{$mobile}
     font-size: 1.2rem
 
+  @media #{$dark-mode}
+    color: $dark-gama
+
 blockquote
   padding-left: 15px
   border-left: 3px solid #eee
@@ -84,8 +104,11 @@ hr
   border: none
   height: 1px
   margin: 40px auto
-  background: #eee
+  background: $rho
   width: 100%
+
+  @media #{$dark-mode}
+    background: $dark-rho
 
 figure.highlight
   width: 100%
@@ -97,9 +120,12 @@ tt
   font-family: $fontMonospace
   font-size: 12px
   line-height: 20px
-  background: #fff
+  background: white
   border-radius: 2px
   border-radius: 2px
+
+  @media #{$dark-mode}
+    background: black
 
 pre
   box-sizing: border-box
@@ -110,12 +136,13 @@ pre
   font-size: 1.2rem
   line-height: 2rem
   overflow: auto
-  background: #fff
+  background: white
   border: 1px solid $epsilon
   border-radius: 2px
 
-  @media #{dark-mode}
-    background: red
+  @media #{$dark-mode}
+    background: black
+    border: 1px solid $dark-epsilon
 
 .wrapper-normal,
 .wrapper-large
