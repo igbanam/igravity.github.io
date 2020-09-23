@@ -46,4 +46,32 @@ The only pitfall I faced here was around assets. See… I had created a new rail
 
 With Rails now deployed on AWS, running on NGINX + Passenger, deployed with Capistrano… I began to think if this is possible on shared servers.
 
+## Updates
+
+### Deploy Keys
+
+Github has this neat feature where it allows you to add SSH keys per repository.
+Github calls this "Deploy Keys". The idea is to give a certain key rights to a
+reposoty so it can pull (by default) contents of that repository. This makes it
+easy for servers to [add their public SSH keys to these repositories as Deploy
+keys][2] and allow deployment do on smoothly.
+
+
+### SSH Forwarding
+
+On AWS, the acceptable way to ues an SSH client to access your server us through
+a PEM file. When deplying using Capistrano, you would have to tell Capistrano to
+use this private key while running your deploys.
+
+```ruby
+# in config/deploy.rb
+
+set :ssh_options, {
+  forward_agent: true,
+  auth_methods: %w[publickey],
+  keys: %w[/path/to/key.pem]
+}
+```
+
   [1]: https://gorails.com/deploy/ubuntu/18.04
+  [2]: https://docs.github.com/en/developers/overview/managing-deploy-keys#deploy-keys
