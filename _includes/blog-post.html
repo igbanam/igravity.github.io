@@ -1,6 +1,15 @@
 <div class="item">
   <a class="url" href="{{ site.url }}{{ post.url }}">
     <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-    <h3 class="title">{{ post.title }}</h3>
+    <h3 class="title">
+      {% if post.category == "bass"%}
+        {% if post.tabs %}
+          &#127932;
+        {% else %}
+          &#127928;
+        {% endif %}
+      {% endif %}
+      {{ post.title }}
+    </h3>
   </a>
 </div>

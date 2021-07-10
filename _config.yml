@@ -63,10 +63,9 @@ width: large
 # paginate: 5
 # paginate_path: "blog/:num/"
 
-# if you don't need projects, comment the *projects* configs below
+# if you don't want a particular section, set it to false
 projects: true
-
-# if you don't need "about" or "blog", comment them out below
+bass: true
 about: true
 blog: true
 

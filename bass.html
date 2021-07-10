@@ -1,0 +1,13 @@
+---
+layout: page
+title: Bass
+---
+
+<section class="list">
+  {% assign page_category = page.title | downcase %}
+  {% for post in site.posts %}
+    {% if post.category == page_category %}
+      {% include blog-post.html %}
+    {% endif %}
+  {% endfor %}
+</section>
