@@ -9,8 +9,9 @@ jobs:
 
     steps:
       - name: 🛎 Check ou release
-        uses: actions/checkout@release
+        uses: actions/checkout@v2.3.4
         with:
+          ref: release
           fetch-depth: 1
       - name: 🧪 Build and deploy
         uses: victoriadrake/jekyll-cd@master
