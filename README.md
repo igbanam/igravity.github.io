@@ -7,7 +7,7 @@ This site is meant to catalogue my thoughts around programming and what not. The
 
 ## Build Process
 
-This site is built with [Jekyll][2]. Originally hosted on [Github Pages][3], at the time of writing up this README, I am in the process of moving the site to [Netlify][4]. Nothing fancy. Just a static site generator.
+This site is built with [Jekyll][2]. Originally hosted on [Github Pages][3], at the time of writing up this README, I am in the process of moving the site to [Netlify][4]. Nothing fancy. Just a static site generator
 
   [1]: https://twitter.com/yaasky
   [2]: https://jekyllrb.com/
