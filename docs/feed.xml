@@ -5,9 +5,31 @@
     <description>These are my thoughts.</description>
     <link>https://igbanam.github.io/</link>
     <atom:link href="https://igbanam.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Jun 2021 10:09:40 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Jun 2021 10:09:40 +0000</lastBuildDate>
+    <pubDate>Sun, 11 Jul 2021 08:16:29 +0000</pubDate>
+    <lastBuildDate>Sun, 11 Jul 2021 08:16:29 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Somebody Baby</title>
+        <description>&lt;p&gt;16 beat loop&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    1 2 3 4 5 6 7 8               LOOP -&amp;gt;
+G |--------/2-------0------/5------------
+D |-3-----------0-----------------3------
+A |-----------------------------3--------
+E |--------------------------------------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/anYV459bfmM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 10 Jul 2021 16:57:00 +0000</pubDate>
+        <link>https://igbanam.github.io/somebody-baby/</link>
+        <guid isPermaLink="true">https://igbanam.github.io/somebody-baby/</guid>
+        
+        
+        <category>bass</category>
+        
+      </item>
     
       <item>
         <title>On the Quest of Origins</title>
