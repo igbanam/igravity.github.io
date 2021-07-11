@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🛎 Check out master
-        uses: actions/checkout@master
+      - name: 🛎 Check ou release
+        uses: actions/checkout@release
         with:
           fetch-depth: 1
       - name: 🧪 Build and deploy
